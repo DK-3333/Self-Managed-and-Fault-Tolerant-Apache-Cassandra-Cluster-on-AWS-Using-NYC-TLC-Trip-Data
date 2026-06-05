@@ -34,7 +34,9 @@ This project presents the design, deployment, and administration of a **self-man
 
 The diagram below summarizes the end-to-end data flow, cloud deployment, cassandra cluster structure, and backup/restore workflow used in this project.
 
-
+<center>
+  <img width="1161" height="280" alt="project-architecture" src="https://github.com/user-attachments/assets/f8a91f78-ae45-414a-9982-65b86b90e8a4" />
+</center>
 
 ---
 
