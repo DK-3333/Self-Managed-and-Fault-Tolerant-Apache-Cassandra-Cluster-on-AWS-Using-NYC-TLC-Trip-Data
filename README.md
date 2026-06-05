@@ -44,7 +44,7 @@ This project presents the design, deployment, and administration of a **self-man
 ## Repository Structure
 ```
 ├── docs/
-│   ├── github_g2_project_report.pdf              # Full project report covering architecture, AWS setup, Cassandra administration, backup/restore, replication, fault tolerance, and cost analysis
+│   ├──technical_project_report.pdf              # Full project report covering architecture, AWS setup, Cassandra administration, backup/restore, replication, fault tolerance, and cost analysis.
 │   └── data_dictionary_trip_records_yellow.pdf   # Field-level data dictionary describing the taxi trip attributes, datatype meanings, and CSV schema reference used for loading
 ├── notebooks/
 │   └── updated_data_preprocessing.ipynb          # Notebook documenting parquet inspection, datatype standardization, csv conversion, and preparation of Cassandra-ready load files
@@ -57,6 +57,7 @@ This project presents the design, deployment, and administration of a **self-man
 - The **`docs/`** folder stores the full report and supporting reference material for readers who want the complete technical walkthrough.
 - The **`notebooks/`** folder contains the preprocessing notebook used to inspect source files, standardize data types, and prepare Cassandra-ready CSV output.
 - The **`sql/`** folder contains the CQL scripts used through DataGrip for **Node 1 validation, restore verification, replication testing, and Node 2 fault-tolerance checks**.
+- The **technical project report** is maintained as a private supporting document and can be shared separately on request for a more detailed walkthrough of the implementation, screenshots, and validation steps.
 - The public repository intentionally excludes the full raw and processed datasets; the notebook explains how to download the source files locally.
 
 ---
