@@ -30,6 +30,12 @@ This project presents the design, deployment, and administration of a **self-man
 - Demonstrated end-to-end DBA tasks including **secure configuration, query validation, backup and restore, monitoring, replication, and node-failure testing**.
 - Validated the environment through **cqlsh, DataGrip, nodetool, shell scripts, and AWS infrastructure checks**.
 
+### Project Architecture
+
+The diagram below summarizes the end-to-end data flow, cloud deployment, cassandra cluster structure, and backup/restore workflow used in this project.
+
+
+
 ---
 
 ## Objective
